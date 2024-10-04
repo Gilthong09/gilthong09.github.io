@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo del encabezado */
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .subtitle {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+/* Secciones del contenido principal */
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #6a11cb;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+section p,
+section ul {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 2.5rem;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del pie de página */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f1f1f1;
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
